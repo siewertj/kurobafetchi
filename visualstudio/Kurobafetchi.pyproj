@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{8563ac2c-3a20-4de2-b95c-f89ee7c175f3}</ProjectGuid>
     <ProjectHome>..\</ProjectHome>
-    <StartupFile>setup.py</StartupFile>
+    <StartupFile>bin\Kurobafetchi.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -21,8 +21,7 @@
     <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="bin\CloverFetch.py" />
-    <Compile Include="bin\test_cloverfetch.py" />
+    <Compile Include="bin\Kurobafetchi.py" />
     <Compile Include="kurobafetchi\api4chan.py" />
     <Compile Include="kurobafetchi\main.py" />
     <Compile Include="kurobafetchi\web\jsonpage.py" />
@@ -36,6 +35,9 @@
     <Folder Include="bin" />
     <Folder Include="kurobafetchi" />
     <Folder Include="kurobafetchi\web" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="readme.md" />
   </ItemGroup>
   <Import Project="$(PtvsTargetsFile)" Condition="Exists($(PtvsTargetsFile))" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="!Exists($(PtvsTargetsFile))" />
