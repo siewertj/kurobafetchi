@@ -30,7 +30,7 @@ It can be uninstalled with
 	
 	
 Running
-_______
+-------
 
 The name of the script installed is 'fetchi.py'. So assuming that your Path variable is
 setup correctly, you can do a
